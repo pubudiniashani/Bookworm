@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.TransactionFormController">
+   <children>
+      <Label layoutX="280.0" layoutY="39.0" text="Transaction">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TableView layoutX="42.0" layoutY="137.0" prefHeight="392.0" prefWidth="672.0">
+        <columns>
+          <TableColumn prefWidth="183.0" text="Book name" />
+          <TableColumn prefWidth="166.0" text="User name" />
+            <TableColumn prefWidth="170.0" text="Borrow data" />
+            <TableColumn prefWidth="152.0" text="Return date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
